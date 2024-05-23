@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav span#cartCount {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+#imgContainer {
+  margin-top: 70px; /* To avoid the content being hidden under the fixed navbar */
+  text-align: center;
+}
+
+#imgContainer img {
+  max-width: 100%;
+  height: auto;
+}

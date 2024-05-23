@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="styles/cart.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">MCaffeine</a>
+        <a href="bodyCare.html">Body Care</a>
+        <a href="faceCare.html">Face Care</a>
+        <a href="hairCare.html">Hair Care</a>
+        <a href="login.html">Login</a>
+        <a href="signUp.html">Sign Up</a>
+        <a href="cart.html">🛍️</a>
+        <span id="cartCount">0</span>
+    </nav>
+
+    <div class="cart-container">
+        <h2 id="totalItems">Total items in cart: 0</h2>
+        <h2 id="totalAmount">Total Amount: $0.00</h2>
+        <div id="cartContainer">
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="coupon-section">
+            <input type="text" id="couponCode" placeholder="Enter coupon code">
+            <button id="applyCoupon">Apply Coupon</button>
+        </div>
+        <h1 id="billAmount">Bill Amount: $0.00</h1>
+    </div>
+
+    <script src="Scripts/cart.js"></script>
+</body>
+
+</html>
